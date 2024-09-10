@@ -1,0 +1,166 @@
+const userData = [
+  { month: "Jan", "Active User": 1000 },
+  { month: "Feb", "Active User": 2000 },
+  { month: "Mar", "Active User": 1500 },
+  { month: "Apr", "Active User": 1800 },
+  { month: "May", "Active User": 2200 },
+  { month: "Jun", "Active User": 2400 },
+  { month: "Jul", "Active User": 2600 },
+  { month: "Aug", "Active User": 2800 },
+  { month: "Sep", "Active User": 3000 },
+  { month: "Oct", "Active User": 3200 },
+  { month: "Nov", "Active User": 3400 },
+  { month: "Dec", "Active User": 3600 },
+];
+
+export const userRows = [
+  {
+    id: 1,
+    userName: "Pankaj Lohani",
+    avatar: "/src/assets/photo-1478001517127-fccc92f54906.avif",
+    email: "PankajLohani564@gmail.com",
+    transaction: "$212.00",
+    status: "Active",
+  },
+  {
+    id: 2,
+    userName: "Pankaj Lohani",
+    avatar: "/src/assets/photo-1478001517127-fccc92f54906.avif",
+    email: "PankajLohani564@gmail.com",
+    transaction: "$212.00",
+    status: "Active",
+  },
+  {
+    id: 3,
+    userName: "Pankaj Lohani",
+    avatar: "/src/assets/photo-1478001517127-fccc92f54906.avif",
+    email: "PankajLohani564@gmail.com",
+    transaction: "$212.00",
+    status: "Active",
+  },
+  {
+    id: 4,
+    userName: "Pankaj Lohani",
+    avatar: "/src/assets/photo-1478001517127-fccc92f54906.avif",
+    email: "PankajLohani564@gmail.com",
+    transaction: "$212.00",
+    status: "Active",
+  },
+  {
+    id: 5,
+    userName: "Pankaj Lohani",
+    avatar: "/src/assets/photo-1478001517127-fccc92f54906.avif",
+    email: "PankajLohani564@gmail.com",
+    transaction: "$212.00",
+    status: "Active",
+  },
+  {
+    id: 6,
+    userName: "Pankaj Lohani",
+    avatar: "/src/assets/photo-1478001517127-fccc92f54906.avif",
+    email: "PankajLohani564@gmail.com",
+    transaction: "$212.00",
+    status: "Active",
+  },
+  {
+    id: 7,
+    userName: "Pankaj Lohani",
+    avatar: "/src/assets/photo-1478001517127-fccc92f54906.avif",
+    email: "PankajLohani564@gmail.com",
+    transaction: "$212.00",
+    status: "Active",
+  },
+  {
+    id: 8,
+    userName: "Pankaj Lohani",
+    avatar: "/src/assets/photo-1478001517127-fccc92f54906.avif",
+    email: "PankajLohani564@gmail.com",
+    transaction: "$212.00",
+    status: "Active",
+  },
+  {
+    id: 9,
+    userName: "Pankaj Lohani",
+    avatar: "/src/assets/photo-1478001517127-fccc92f54906.avif",
+    email: "PankajLohani564@gmail.com",
+    transaction: "$212.00",
+    status: "Active",
+  },
+];
+export default userData;
+
+
+export const productData = [
+  { name: "January", Sales: 4000 },
+  { name: "February", Sales: 3000 },
+  { name: "March", Sales: 5000 },
+];
+
+
+export const productRows = [
+  {
+    id: 1,
+    name: "Apple Airdops",
+    img: '/src/assets/premium_photo-1711051474974-607d59a0b997.avif',
+    stock: 122,
+    status: "active",
+    price: "$120.00",
+  },
+  {
+    id: 2,
+    name: "Apple Airdops",
+    img: '/src/assets/premium_photo-1711051474974-607d59a0b997.avif',
+
+    stock: 122,
+    status: "active",
+    price: "$120.00",
+  },
+  {
+    id: 3,
+    name: "Apple Airdops",
+    img: '/src/assets/premium_photo-1711051474974-607d59a0b997.avif',
+    stock: 122,
+    status: "active",
+    price: "$120.00",
+  },
+  {
+    id: 4,
+    name: "Apple Airdops",
+    img: '/src/assets/premium_photo-1711051474974-607d59a0b997.avif',
+    stock: 122,
+    status: "active",
+    price: "$120.00",
+  },
+  {
+    id: 5,
+    name: "Apple Airdops",
+    img: '/src/assets/premium_photo-1711051474974-607d59a0b997.avif',
+    stock: 122,
+    status: "active",
+    price: "$120.00",
+  },
+  {
+    id: 6,
+    name: "Apple Airdops",
+    img: '/src/assets/premium_photo-1711051474974-607d59a0b997.avif',
+    stock: 122,
+    status: "active",
+    price: "$120.00",
+  },
+  {
+    id: 7,
+    name: "Apple Airdops",
+    img: '/src/assets/premium_photo-1711051474974-607d59a0b997.avif',
+    stock: 122,
+    status: "active",
+    price: "$120.00",
+  },
+  {
+    id: 8,
+    name: "Apple Airdops",
+    img: '/src/assets/premium_photo-1711051474974-607d59a0b997.avif',
+    stock: 122,
+    status: "active",
+    price: "$120.00",
+  },
+];

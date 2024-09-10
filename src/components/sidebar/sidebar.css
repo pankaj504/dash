@@ -1,0 +1,45 @@
+.sidebar {
+  /* background:#03223f; */
+  /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#f2f9fe+0,d6f0fd+100;White+3D+%232 */
+ /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#4f85bb+0,4f85bb+100;Blue+3D+%239 */
+
+  background-color:#e4d9fc;
+
+  height: calc(100vh - 55px);
+  display: flex;
+  flex:.5;
+ 
+  position: sticky;
+  top: 55px;
+}
+.sidebarItemsContainer {
+  font-size: 0.7rem;
+  padding: 10px;
+}
+.sidebarItemsItems {
+  padding: 15px;
+  margin-top: 10px;
+}
+.sidebarListItem.active,
+.sidebarListItem:hover {
+  color: rgb(255, 255, 255);
+  border-radius: 50px;
+  background-color: #ff8800;
+
+}
+.sidebarListContainer {
+  padding: 2px;
+}
+
+.sidebarListItem {
+  font-size: 15px;
+  width: 120px;
+  height: 10px;
+  padding: 7px;
+  list-style: none;
+  margin: 10px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  cursor: pointer;
+}

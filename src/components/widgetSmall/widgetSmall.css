@@ -1,0 +1,54 @@
+.widgetSmall {
+  flex: 1;
+  /* width: 100px; */
+  background-color: white;
+  margin-top: 20px;
+  -webkit-box-shadow:  px 0px 0px 0px #4c4c4c;
+  box-shadow: 0px 0px 1px 0px #4c4c4c;
+  border-radius: 5px;
+  padding: 20px;
+}
+.widgetsmalltitle {
+  font-size: 22px;
+}
+.widgetList {
+  padding: 20px;
+}
+.widgetListItems {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  gap: 20px;
+  margin-bottom: 15px;
+}
+img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.list {
+  display: flex;
+  flex-direction: column;
+}
+
+.widgetIcons {
+  display: flex;
+  align-items: center;
+  background-color: rgb(226, 225, 225);
+  border-radius: 15px;
+  padding: 2px 6px;
+  color: gray;
+  font-size: 15px;
+}
+.widgetIconss {
+  font-size: 20px !important;
+}
+.Name {
+  font-size: 15px;
+  font-weight: 600;
+}
+.profession {
+  font-weight: 300;
+  color: gray;
+}

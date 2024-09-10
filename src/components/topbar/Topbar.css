@@ -1,0 +1,72 @@
+.topbar {
+  background-color: #7c41f5;
+  height: 50px;
+  color: rgb(255, 255, 255);
+  padding: 5px;
+  position: sticky;
+  top: 0;
+  z-index: 999;
+}
+.topbarItemsContainer {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px;
+}
+.topbarLeft {
+  font-size: 1.5rem;
+  background: transparent;
+}
+.topbarlogo {
+  background: transparent;
+}
+.logo {
+  cursor: pointer;
+}
+.logo:hover {
+  color: rgb(190, 193, 190);
+  transition: ease-in 0.3s;
+}
+.topbarRight {
+  background: transparent;
+}
+.topbarRightList {
+  background: transparent;
+
+  display: flex;
+  gap: 15px;
+}
+.topbarRightListItem {
+  background: transparent;
+
+  align-items: center;
+  list-style: none;
+  cursor: pointer;
+  position: relative;
+}
+.topbarRightListItem :hover {
+  color: #ff6f00;
+}
+.icons {
+  background: transparent;
+
+  font-size: 1.7rem !important;
+}
+.badge {
+  background: transparent;
+
+  height: 18px;
+  width: 18px;
+  top: -5px;
+  right: 2px;
+  color: rgb(255, 255, 255);
+  background-color: rgb(21, 12, 77);
+  border-radius: 50%;
+  position: absolute;
+  text-align: center;
+  font-size: 12px;
+}
+.avatar {
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+}

@@ -1,0 +1,16 @@
+.home {
+  /* background-color:#19324c; */
+  /* background-color:#0a2139; */
+  /* background-color:#6f95ff; */
+  background-color:#f3f1f7;
+
+  flex: 4;
+  /* background-color: #4c4c4c; */
+
+
+ 
+}
+.widget{
+  display: flex;
+ margin: 20px;
+}

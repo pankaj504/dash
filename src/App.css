@@ -1,0 +1,11 @@
+*{
+  margin: 0;
+  /* background: linear-gradient(to right,#0F172A,#111A2D,#19324C); */
+}
+.dash{
+  display: flex;
+}
+
+.link{
+  text-decoration: none;
+}
