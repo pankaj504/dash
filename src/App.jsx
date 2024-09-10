@@ -12,7 +12,7 @@ import ProductList from "./productList/ProductList";
 import NewProduct from "./newProduct/NewProduct";
 const App = () => {
   return (
-    <Router basename="/">
+    <HashRouter basename="/">
       <Topbar />
       <div className="dash">
         <Sidebar />
@@ -26,7 +26,7 @@ const App = () => {
           <Route path="/newProduct" element={<NewProduct />} />
         </Routes>
       </div>
-    </Router>
+    </HashRouter>
   );
 };
 
