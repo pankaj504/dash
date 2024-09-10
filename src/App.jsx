@@ -12,7 +12,7 @@ import ProductList from "./productList/ProductList";
 import NewProduct from "./newProduct/NewProduct";
 const App = () => {
   return (
-    <HashRouter basename="/">
+    <HashRouter>
       <Topbar />
       <div className="dash">
         <Sidebar />
